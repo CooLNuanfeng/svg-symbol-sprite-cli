@@ -1,0 +1,33 @@
+{
+  "name": "svg-symbol-sprite-cli",
+  "version": "1.0.0",
+  "description": "svg sprite symbol use",
+  "main": "index.js",
+  "bin": {
+    "svg": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CooLNuanfeng/svg-symbol-sprite-cli.git"
+  },
+  "keywords": [
+    "svg",
+    "sprite",
+    "symbol"
+  ],
+  "author": "coolnuanfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CooLNuanfeng/svg-symbol-sprite-cli/issues"
+  },
+  "homepage": "https://github.com/CooLNuanfeng/svg-symbol-sprite-cli#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1",
+    "mkdirp": "^0.5.1",
+    "svg-sprite": "^1.4.0"
+  }
+}
