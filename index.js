@@ -8,7 +8,7 @@ program.on('--help', function(){
     console.log('');
     console.log('    $ svg --help');
     console.log('    $ svg -e src -o dist');
-    console.log('    $ svg -l email.svg user.svg -o dist');
+    console.log('    $ svg -l email.svg,user.svg -o dist');
     console.log('');
 });
 
